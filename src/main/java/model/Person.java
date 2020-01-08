@@ -3,6 +3,7 @@ package model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.Arrays;
 
 @Entity
 @Table(name = "PERSONS",
@@ -101,5 +102,23 @@ public class Person {
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", version=" + version +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", birthDay=" + birthDay +
+                ", gender=" + gender +
+                ", picture=" + Arrays.toString(picture) +
+                ", comment='" + comment + '\'' +
+                ", married=" + married +
+                ", age=" + age +
+                ", homepage='" + homepage + '\'' +
+                ", address=" + address +
+                '}';
     }
 }

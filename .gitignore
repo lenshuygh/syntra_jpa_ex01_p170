@@ -10,3 +10,6 @@
 /.idea/vcs.xml
 /.idea/modules.xml
 /.idea/syntra_jpa_ex01_p170.iml
+/.idea/uiDesigner.xml
+/target/classes/GetPerson.class
+/target/classes/META-INF/syntra_jpa_ex01_p170.kotlin_module
