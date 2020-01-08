@@ -1,0 +1,10 @@
+/target/classes/SavePerson.class
+/target/classes/model/Person.class
+/target/classes/META-INF/persistence.xml
+/target/classes/META-INF/orm.xml
+/target/classes/model/Gender.class
+/target/classes/model/Address.class
+/.idea/encodings.xml
+/Jpa_Exercise01_p170.iml
+/.idea/misc.xml
+/.idea/vcs.xml
